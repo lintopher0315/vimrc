@@ -8,9 +8,8 @@ then
     exit 1
 fi
 
-mkdir -p "$DIR"
+git clone git://github.com/lintopher0315/vimrc.git "$DIR"
 cd "$DIR"
-git clone git://github.com/lintopher0315/vimrc.git
 
 git submodule init
 git submodule update
