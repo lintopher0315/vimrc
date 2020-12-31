@@ -25,4 +25,6 @@ set relativenumber
 set showcmd
 set clipboard=unnamedplus
 
+set timeout timeoutlen=3000 ttimeoutlen=100
+
 :autocmd BufNewFile *.cpp 0r ~/.vim/templates/template.cpp
