@@ -25,6 +25,11 @@ set relativenumber
 set showcmd
 set clipboard=unnamedplus
 
-set timeout timeoutlen=3000 ttimeoutlen=100
+set timeout timeoutlen=1000 ttimeoutlen=100
 
 :autocmd BufNewFile *.cpp 0r ~/.vim/templates/template.cpp
+
+inoremap jj <ESC>
+inoremap Jj <ESC>
+inoremap JJ <ESC>
+:command W w
